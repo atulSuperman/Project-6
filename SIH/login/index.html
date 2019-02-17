@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <div class="login-header">
+        <div class="logo-container">
+            <div class="logo"></div>
+            <div class="site-name roboto">Website</div>
+        </div>
+    </div>
+    <div class="form-container">
+        <div class="row m-0 w-100 h-100">
+            <div class="col-md-5 sign-user border-rad-10-left h-100">
+                <div class="sign-user-container">
+                    <h1 class="roboto text-white sign-user-container-head">Welcome Again</h1>
+                    <p class="text-white text-center sign-user-container-p">
+                        Welcome here! You can join our org.
+                        please login here with your account.
+                        Please login here with your.
+                    </p>
+                    <h2 class="sign-user-container-head-2 text-white">New User?</h2>
+                    <button type="button" onclick="toggle(this)" class="sign-toggle">Sign Up</button>
+                </div>
+            </div>
+            <div class="col-md-7 h-100 bg-white user-form-container">
+                <div class="form-carrier text-center h-100 roboto">
+                    <h2 class="create-account">Log In</h2>
+                    <form action="home.html" method="post" class="sign-user-form">
+                        <div class="form-group">
+                          <input required type="email" class="form-control border-radius-50 input-control" placeholder="username" name="uid" id="uid">
+                        </div>
+                        <div class="form-group">
+                            <input required type="password" class="form-control border-radius-50 input-control" placeholder="password" name="pwd" id="pwd">
+                        </div>
+                        <div class="form-group">
+                            <input required type="password" class="form-control border-radius-50 input-control none" placeholder="confirm password" name="cpwd" id="cpwd">
+                        </div>
+                        <div class="text-center mt-4"> <button name="signup" type="submit" class="submit roboto" onsubmit="return validate()">Log In</button> </div>
+                    </form>
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

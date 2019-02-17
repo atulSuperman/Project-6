@@ -1,0 +1,19 @@
+.header {
+  background: linear-gradient(to top, #009689, #00b4b4); }
+
+.left-container {
+  background: linear-gradient(to top, #009689, #00b4b4); }
+
+.nav-list-links, .logo-text {
+  color: white; }
+
+.w-80 {
+  width: 80%; }
+
+.t-bigger {
+  font-size: 125%; }
+
+.notification {
+  color: #009696; }
+
+/*# sourceMappingURL=home-style1.css.map */
