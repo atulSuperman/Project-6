@@ -1,0 +1,20 @@
+$gradient: linear-gradient(to top,rgb(0, 150, 137),rgb(0, 180, 180));
+$text: white;
+.header{
+    background: linear-gradient(to top,rgb(0, 150, 137),rgb(0, 180, 180));
+}
+.left-container{
+    background: linear-gradient(to top,rgb(0, 150, 137),rgb(0, 180, 180));
+}
+.nav-list-links,.logo-text{
+    color: $text;
+}
+.w-80{
+    width: 80%
+}
+.t-bigger{
+    font-size: 125%;
+}
+.notification{
+    color: rgb(0,150,150);
+}
