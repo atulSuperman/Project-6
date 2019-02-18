@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% csrf_token %}
+<p>Welcome {{e}} your password is {{p}} you have been sucessfully signed in</p>
+<button type="button" onclick="location.href='{% url 'log' %}'">Logout</button>
+</body>
+</html>
